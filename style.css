@@ -50,6 +50,11 @@
                             padding-bottom: 95px;
                             color: #fff;
                         }
+
+                        .header-wrapper{
+                            display: flex;
+                            align-items: center;
+                        }
                         
                         .wrapper {
                             display: flex;
@@ -57,7 +62,7 @@
                         }
                         
                         .offer {
-                            margin-top: 140px;
+                            padding-top: 140px;
                         }
                         
                         .title {
@@ -174,15 +179,17 @@
                             .container {
                                 width: 960px;
                             }
-                            .wrapper {
-                                display: flex;
-                                flex-direction: column;
-                            }
+                           
                             .title {
                                 width: auto;
                             }
                             .intro {
                                 width: auto;
+                            }
+
+                            .desctop {
+                                display: block;
+                                width: 95%;
                             }
                         }
                         /*768px - 992px*/
@@ -191,9 +198,12 @@
                             .container {
                                 width: 720px;
                             }
+
+                            .wrapper {
+                                display: flex;
+                                flex-direction: column;
+                            }
                             .desctop {
-                                display: block;
-                                width: 95%;
                                 margin: 55px auto 0;
                             }
                             /*576px - 768px*/
